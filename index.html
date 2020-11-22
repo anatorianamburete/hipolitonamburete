@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paginap.css">
+</head>
+<body>
+    <header id="main">
+        <p id="assina">HNamburete</p>
+        <img id="tracos"src="img/tracinhos.png"  onclick="hide()" alt="Tracinhos">
+    </header>
+    
+
+    <div id="demo">
+        <header>
+        <button id="btn-demo" onclick="show()"><i class="fas fa-times" ></i></button>   
+    </header>
+
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="work.html">My Work</a></h1>
+        <h1><a href="aboutme.html">About Me</a></h1>
+        <h1><a href="myfocuses.html">My Focuses</a></h1>
+        <h1><a href="contactme.html">Contact Me</a></h1>
+    </div>
+
+
+    
+    <h1 id="hello">He<br>llo.</h1>
+    <img id="foto"src="img/foto1.jpg" alt="Foto">
+    
+    <div>
+        <p id="acerca">Olá malta, sou <strong>Hipólito Namburete</strong>, desenvolvedor Jr, Técnico de Transmissão,<br> e <strong>Sonhador a Tempo inteiro</strong></p>
+    </div>
+     
+    
+        <ul id="num">
+            <li class="numeros"><a href="work.html" class="alga">01</a></li>
+            <li class="numeros"><a href="aboutme.html" class="alga">02</a></li>
+            <li class="numeros"><a href="myfocuses.html" class="alga">03</a></li>
+            <li class="numeros"><a href="contactme.html" class="alga">04</a></li>
+        </ul>
+    
+    
+   
+
+    <ul id="ligacoes">
+        <li class="liga"><a href="work.html" class="conn">My work</a></li>
+        <li class="liga"><a href="aboutme.html" class="conn">About Me</a></li>
+        <li class="liga"><a href="myfocuses.html" class="conn">My Focuses</a></li>
+        <li class="liga"><a href="contactme.html" class="conn">Contact Me</a></li>
+    </ul>
+    <br><br><br>
+    <footer>
+        <div  id="rodape">
+            <p id="f1">Feito com todo amor e dedicação</p>
+            <P id="email">hnamburete@gmail.com</P> 
+        </div>
+        
+    </footer>
+
+    <script type="text/javascript">
+        function ocultar(){
+      var ocultar = document.getElementById("demo");
+      ocultar.style.display = 'none';
+   
+  }
+  ocultar()
+        function hide(){
+            
+             var ocultar = document.getElementById("main");
+      ocultar.style.display = 'none';
+            if(document.getElementById("demo").style.display == "none"){
+                document.getElementById("demo").style.display = "block";
+            }else{document.getElementById("demo").style.display = "none";}
+            
+        }
+        function show(){
+                var ocultar = document.getElementById("main");
+      ocultar.style.display = 'block';
+            if(document.getElementById("demo").style.display == "none"){
+                document.getElementById("demo").style.display = "block";
+            }else{document.getElementById("demo").style.display = "none";}
+            
+        }
+    </script>
+
+
+</body>
+</html>

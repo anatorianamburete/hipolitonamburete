@@ -1,0 +1,123 @@
+body{
+    background-color: whitesmoke;
+}
+
+header p{
+    float: left;
+    margin-left: 250px;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+header i{
+    float: right;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 250px;
+    color: coral;
+}
+
+#num{
+    clear: both;
+    margin-left: 350px;
+    font-size: 100px;
+    text-decoration: 10px;
+    text-decoration-color:coral;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+}
+
+#titulo{
+    margin-left: 350px;
+}
+
+div{
+    margin-left: 350px;
+}
+
+#p1{
+    float: left;
+    margin-right: 20px;
+}
+#p2{
+    margin-left: 10px;
+    margin-right: 15px;
+    padding-bottom: 0px;
+    float: left;
+    border-left: grey;
+    border-left-style: solid;
+    
+}
+#p3{
+    float: right;
+    margin-right: 350;
+    border-left: grey;
+    border-left-style: solid;
+}
+div p{
+    
+    font-size: 12px;
+    color: grey;
+}
+
+form{
+    clear: both;
+    margin-left: 350px;
+}
+
+#nome{
+    width: 320px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    background-color: whitesmoke;
+}
+
+#email{
+    width: 315px;
+    margin-bottom: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    background-color: whitesmoke;
+}
+
+#subject{
+    width: 648px;
+    margin-bottom: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    background-color: whitesmoke;
+}
+
+#message{
+    width: 648px;
+    height: 100px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    background-color: whitesmoke;
+    
+}
+
+#send{
+    margin-left: 300px;
+    background-color: whitesmoke;
+    border: none;
+    margin-top: 5px;
+}

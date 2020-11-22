@@ -1,0 +1,176 @@
+body{
+    background-color: whitesmoke;
+}
+
+header p{
+    float: left;
+    margin-left: 250px;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+header i{
+    float: right;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 250px;
+    color: coral;
+}
+
+#num{
+    clear: both;
+    margin-left: 350px;
+    font-size: 100px;
+    text-decoration: 10px;
+    text-decoration-color:coral;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+}
+
+#titulo{
+    margin-left: 350px;
+}
+
+#mae{
+
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 350px;
+    margin-right: 10px;
+    background-image: url(ui.png);
+    background-image: ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#d1{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    float: left;
+    position: relative;
+}
+
+#dif{
+    position: absolute;
+    background-image: url(img/view.png);
+    background-size: 300px;
+    width: 300px;
+    height: 170px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+#d2{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    float: right;
+    position: relative;
+}
+
+#d3{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    float: left;
+    position: relative;
+}
+
+#d4{
+    width: 200px;
+    height: 200px;
+    background-color:lightgray;
+    float: right;
+    position: relative;
+}
+
+#pai{
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    float: left;
+    margin-right: 10px;
+}
+
+#d5{
+    width: 200px;
+    height: 200px;
+    background-color: lightsteelblue;
+    float: left;
+}
+
+#d6{
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    float: right;
+}
+
+#d7{
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    float: left;
+}
+
+#d8{
+    width: 200px;
+    height: 200px;
+    background-color: lightsteelblue;
+    float: right;
+}
+
+#dife{
+    position: absolute;
+    background-image: url(img/phone.png);
+    background-size: 200px;
+    width: 200px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+div{
+    margin-top: 100px;
+    display: block;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+}
+
+header button i{
+    color: coral;
+    font-size: 30px;
+    
+}
+
+header button{
+    background-color: black;
+    width: 50px;
+    height: 30px;
+    margin-left: 70%;
+}
+#demo{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: black;
+    height: 100vh;
+    margin: 0;
+
+
+}
+

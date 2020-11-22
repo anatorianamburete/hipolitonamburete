@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="css/all.css" rel="stylesheet">
+    <title>About Me</title>
+    <link rel="stylesheet" href="aboutme.css">
+</head>
+<body>
+    <header id="main">
+        <p id="assina">HNamburete</p>
+       <button onclick="hide()"><i class="fas fa-bars"></i></button> 
+    </header>
+
+    <div id="demo">
+        
+        <button id="btn-demo" onclick="show()"><i class="fas fa-times" ></i></button>
+        
+
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="work.html">My Work</a></h1>
+        <h1><a href="aboutme.html">About Me</a></h1>
+        <h1><a href="myfocuses.html">My Focuses</a></h1>
+        <h1><a href="contactme.html">Contact Me</a></h1>
+    </div>
+
+
+    <h1 id="num">02</h1>
+    <h1 id="titulo">About Me</h1>
+
+    
+    
+
+    <div>
+        <p>OI, sou Hipólito Namburete,  Técnico de Informática, Desenvolvedor Jr e Sonhador. <br>
+            Eu amo fazer a diferença e criar coisas novas que ajudam o próximo. <br>
+            as dificuldades da vida, mas sim procuro me inspirar na Génesis do povo de Moçambique.</p> 
+        
+        <p>Faço as coisas por paixão e por gosto da ciência. Prefiro trabalhar em grupo,<br> por acreditar que a união é que faz a força, daí que <br>
+            busco estar ao lado de pessoas bem motivadas.</p>
+    </div>
+    
+
+    <ul id="links">
+        <li>Meu Resumo</li>
+        <li>Veja meus Objetivos</li>
+    </ul>
+    <ul id="setinhas">
+        <li  class="seta"><a href="" class="icones"> <i class="fas fa-long-arrow-alt-right"></i></a></li>
+        <li  class="seta"><a href="" class="icones"> <i class="fas fa-long-arrow-alt-right"></i></a></li>
+    </ul>
+
+    <script type="text/javascript">
+        function ocultar(){
+      var ocultar = document.getElementById("demo");
+      ocultar.style.display = 'none';
+   
+  }
+  ocultar()
+        function hide(){
+            
+             var ocultar = document.getElementById("main");
+      ocultar.style.display = 'none';
+            if(document.getElementById("demo").style.display == "none"){
+                document.getElementById("demo").style.display = "block";
+            }else{document.getElementById("demo").style.display = "none";
+                    
+        }
+            
+        }
+        function show(){
+                var ocultar = document.getElementById("main");
+      ocultar.style.display = 'block';
+            if(document.getElementById("demo").style.display == "none"){
+                document.getElementById("demo").style.display = "block";
+                document.getElementById("btn-demo").style.display="block";
+            }else{document.getElementById("demo").style.display = "none";}
+            
+        }
+    </script>
+
+</body>
+</html>

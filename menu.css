@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+
+}
+
+div{
+    margin-top: 100px;
+    display: block;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+}
+
+header button i{
+    color: coral;
+    font-size: 30px;
+    
+}
+
+header button{
+    background-color: black;
+    width: 50px;
+    height: 30px;
+    margin-left: 70%;
+}
+
+

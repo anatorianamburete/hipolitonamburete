@@ -1,0 +1,146 @@
+
+#assina{
+    float: left; 
+    margin-left: 250px; 
+  
+}
+
+#tracos{
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: 5px;
+        margin-right: 250px;
+}
+
+#foto{
+    float: right;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+    border-radius: 50%;
+}
+
+#hello{
+   float: left;
+   color: rgb(44, 42, 42);
+   font-size: 100px;
+   text-transform: uppercase;
+   padding-left: 0px;
+   border-bottom-color: coral;
+   border-bottom-style: solid;
+   border-bottom-width: ;
+   border-bottom
+}
+
+div{
+    clear: both;
+}
+#acerca{
+    margin-left: 330px;
+    text-align: left;
+    border-left-color: coral;
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+.numeros{
+    font-size:90px ;
+    
+}
+
+ul{
+    text-align: center;
+}
+ul li{
+    display: inline;
+    margin-right: 70px;
+    padding: 0px;
+} 
+
+a{
+    text-decoration: none;
+}
+#num{
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    height: 90px;
+}
+#ligacoes{
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-left: 30px;
+}
+.liga{
+    margin-top: 1px;
+    margin-right: 90px;
+    
+}
+
+.alga{
+    color: rgb(44, 42, 42);
+}
+.conn{
+    color: orangered;
+}
+body{
+    background-color: whitesmoke;
+}
+
+
+footer{
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#f1{
+    float: left;
+    margin-left: 330px;
+}
+
+#email{
+    float: right;
+    margin-right: 400px;
+}
+
+div{
+    margin-top: 100px;
+    display: block;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+}
+
+header button i{
+    color: coral;
+    font-size: 30px;
+    
+}
+
+header button{
+    background-color: black;
+    width: 50px;
+    height: 30px;
+    margin-left: 70%;
+}
+#demo{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: black;
+    height: 100vh;
+    margin: 0;
+
+
+}

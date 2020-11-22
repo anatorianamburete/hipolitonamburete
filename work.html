@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Work</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+    <header id="main">
+        <p id="assina">HNamburete</p>
+        <button onclick="hide()"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <div id="demo">
+        <header>
+        <button id="btn-demo" onclick="show()"><i class="fas fa-times" ></i></button>   
+        </header>
+
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="work.html">My Work</a></h1>
+        <h1><a href="aboutme.html">About Me</a></h1>
+        <h1><a href="myfocuses.html">My Focuses</a></h1>
+        <h1><a href="contactme.html">Contact Me</a></h1>
+    </div>
+
+
+    <h1 id="num">01</h1>
+    <h1 id="titulo">Selected Work</h1>
+
+    
+    <div id="mae">
+        <div id="d1"></div>
+        <div id="d2"></div>
+        <div id="d3"></div>
+        <div id="d4"></div>
+        <div id="dif"></div>
+    </div>
+
+    <div id="pai">
+        <div id="d5"></div>
+        <div id="d6"></div>
+        <div id="d7"></div>
+        <div id="d8"></div>
+        <div id="dife"></div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        function ocultar(){
+      var ocultar = document.getElementById("demo");
+      ocultar.style.display = 'none';
+   
+  }
+  ocultar()
+        function hide(){
+            
+             var ocultar = document.getElementById("main");
+      ocultar.style.display = 'none';
+            if(document.getElementById("demo").style.display == "none"){
+                document.getElementById("demo").style.display = "block";
+            }else{document.getElementById("demo").style.display = "none";}
+            
+        }
+        function show(){
+                var ocultar = document.getElementById("main");
+      ocultar.style.display = 'block';
+            if(document.getElementById("demo").style.display == "none"){
+                document.getElementById("demo").style.display = "block";
+            }else{document.getElementById("demo").style.display = "none";}
+            
+        }
+    </script>
+</body>
+</html>
